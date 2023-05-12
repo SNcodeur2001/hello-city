@@ -1,7 +1,7 @@
 @extends('app')
 
 @section('title')
-<title>About Us | Hello city</title>
+About Us | {{env('APP_NAME')}}
 @endsection
 
 @section('content')
