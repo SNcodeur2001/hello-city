@@ -4,7 +4,7 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <title>Laravel</title>
+        <title>About Us | Hello city</title>
 
     
     
@@ -13,6 +13,8 @@
     <p>Build with &hearts; by les Teachers du net</p>
 
 
-        <a href="/">page d'acceuil</a>
+        <a href="/">Revenir à la page d'acceuil</a>
+
     </body>
+    <footer> &copy; Copyright {{date('Y') }} &middot; <a href="/about">About-us</a></footer>
 </html>
