@@ -1,20 +1,10 @@
-<!DOCTYPE html>
-<html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
-    <head>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
+@extends('app')
 
-        <title>About Us | Hello city</title>
+@section('content')
 
-    
-    
-    </head>
-    <body>
-    <p>Build with &hearts; by les Teachers du net</p>
+    <p>Build with &hearts; by <strong> LE JEUNE IMAM</strong></p>
 
 
-        <a href="/">Revenir à la page d'acceuil</a>
+    <a href="/">Revenir à la page d'acceuil</a>
 
-    </body>
-    <footer> &copy; Copyright {{date('Y') }} &middot;   </footer>
-</html>
+@endsection
