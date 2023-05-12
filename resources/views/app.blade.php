@@ -11,14 +11,12 @@
     </head>
     <body>
       @yield('content')
-      
      
       <footer> 
         &copy; Copyright {{date('Y') }} &middot; 
         <a href="/about">About-us</a>
       </footer>
       
-      {{env('APP_NAME')}}
     </body>
   
 </html>
