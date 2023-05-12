@@ -16,5 +16,5 @@
         <a href="/">Revenir à la page d'acceuil</a>
 
     </body>
-    <footer> &copy; Copyright {{date('Y') }} &middot; <a href="/about">About-us</a></footer>
+    <footer> &copy; Copyright {{date('Y') }} &middot;   </footer>
 </html>
