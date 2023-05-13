@@ -1,7 +1,7 @@
 @extends('app')
 
 @section('title')
-About Us | {{env('APP_NAME')}}
+About Us | {{config('app.name')}}
 @endsection
 
 @section('content')
@@ -9,6 +9,6 @@ About Us | {{env('APP_NAME')}}
     <p>Build with &hearts; by <strong> LE JEUNE IMAM</strong></p>
 
 
-    <a href="/">Revenir à la page d'acceuil</a>
+    <a href="{{route('home')}}">Revenir à la page d'acceuil</a>
 
 @endsection

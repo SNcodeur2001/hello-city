@@ -5,7 +5,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
         <title>
-        @yield('title',env('APP_NAME'))
+        @yield('title',config('app.name'))
        </title>
 
     </head>
@@ -14,7 +14,7 @@
      
       <footer> 
         &copy; Copyright {{date('Y') }} &middot; 
-        <a href="/about">About-us</a>
+        <a href="{{route('about')}}">About-us</a>
       </footer>
       
     </body>
