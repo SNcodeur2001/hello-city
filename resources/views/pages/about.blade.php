@@ -1,4 +1,4 @@
-@extends('app')
+@extends('app', ['title' => 'About Us'])
 
 @section('title')
 About Us | {{config('app.name')}}

@@ -25,7 +25,6 @@ Route::get('/app', function () {
     return view('/app');
 });
 
-Route::get('/tailwind', function () {
-    return view('pages/tailwind');
-});
+
+
 
